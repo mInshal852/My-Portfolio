@@ -7,7 +7,7 @@ A modern, responsive personal portfolio website to showcase my skills, projects,
 
 ##  Live Demo
 
-> 🔗 [**View Live Portfolio**](https://0x03a.github.io/My-Portfolio/)  
+> 🔗 [**View Live Portfolio**]( https://minshal852.github.io/My-Portfolio/)  
 
 
 ---
