@@ -40,7 +40,7 @@
           <h2 class="hero-role">I am a <span id="hero-animated-role" class="highlight">Web Developer</span></h2>
           <p class="hero-bio">Passionate about creating innovative solutions through code. I love turning  complex problems <span class="hide-on-mobile"><br></span> into simple, beautiful designs.</p>
           <div class="hero-actions">
-            <a href="Cv/muhmmadInshalCv(2).pdf" class="btn primary" download>
+            <a href="Cv/CV.pdf" class="btn primary" download>
               <span class="icon" style="display:inline-block;vertical-align:middle;width:1.2em;height:1.2em;margin-bottom:2px;">
                 <!-- Download SVG -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="18" height="18"><path fill="#1ed760" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7V48c0-17.7-14.3-32-32-32s-32 14.3-32 32v290.7l-41.4-41.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"/>
@@ -109,6 +109,20 @@
       <div class="container">
         <h2>Projects</h2>
       <div class="projects-grid">
+          <div class="project-card">
+            <h3>TestHub</h3>
+            <ul style="padding-left: 1.2rem; margin-bottom: 1rem; color: var(--text-color); font-size: 0.95rem; line-height: 1.5;">
+              <li style="margin-bottom: 8px;">Built a web-based automated testing platform with Selenium and Playwright support, parallel execution via Selenium Grid and Docker, and a centralized dashboard for results, logs, screenshots, videos, and reports.</li>
+              <li style="margin-bottom: 8px;">Built an AI-powered failure diagnosis module using FastAPI and Google Gemini to analyze logs, stack traces, and screenshots, delivering root-cause analysis and debugging recommendations.</li>
+              <li>Containerized all services with Docker and built a GitHub Actions CI/CD pipeline for automated builds, testing, deployment, and downloadable reports and artifacts.</li>
+            </ul>
+            <div class="project-tags">
+              <span>React</span><span>TypeScript</span><span>Go</span><span>MongoDB</span><span>Docker</span><span>FastAPI</span><span>Gemini</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/hellotesthub-create/testhub.git" class="icon-link" title="Source Code">&#128187; Code</a>
+            </div>
+          </div>
           <div class="project-card">
             <h3>Data Breach Checker</h3>
             <p>A web application that allows users to check if their credentials have been exposed in data breaches, manage passwords securely, and learn about digital safety.</p>
@@ -223,7 +237,7 @@
               LinkedIn
             </a>
           </div>
-          <a href="Cv/muhmmadInshalCv(2).pdf" class="btn primary" download><span class="icon" style="display:inline-block;vertical-align:middle;width:1.2em;height:1.2em;margin-bottom:2px;">
+          <a href="Cv/CV.pdf" class="btn primary" download><span class="icon" style="display:inline-block;vertical-align:middle;width:1.2em;height:1.2em;margin-bottom:2px;">
             <!-- Download SVG -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="18" height="18"><path fill="#1ed760" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7V48c0-17.7-14.3-32-32-32s-32 14.3-32 32v290.7l-41.4-41.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"/></svg>
               </span> Download Resume</a>
@@ -272,7 +286,7 @@
         for (let i = 0; i < drops.length; i++) {
             // Random binary character
             const text = binary.charAt(Math.floor(Math.random() * binary.length));
-            
+
             // Draw the character
             ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
